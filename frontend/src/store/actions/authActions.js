@@ -1,7 +1,7 @@
 import axios from "axios"
 import { AUTH_START, AUTH_SUCCESS, AUTH_FAIL, LOGOUT, AUTH_CHECK } from "./types"
 
-const API_URL = "https://role-based-ticketing-system-2uh7.onrender.com"
+const API_URL = "http://localhost:5000/api"
 
 // Login user
 export const login = (email, password) => async (dispatch) => {
